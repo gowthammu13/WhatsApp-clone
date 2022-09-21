@@ -1,0 +1,92 @@
+*{
+  font-family:Arial, Helvetica, sans-serif;
+  padding:  0;
+  margin: 0;
+  background-color: lightgrey;
+
+}
+header
+{
+  height: 220px;
+  width: 100%;
+  background-color: #07a086;
+}
+header img{
+  position: relative;
+  left: 150px;
+  top: 30px;
+}
+.container
+{
+  width: 70%;
+  height: 120vh;
+  z-index: 2;
+  transform: translateY(-120px);
+  margin-left: 200px;
+  box-shadow: 0px 5px 5px 6px rgba(0, 0, 0, 0.6);
+  margin-bottom: 100px;
+
+  
+
+}
+.top
+{
+  display: flex;
+  justify-content: space-around;
+  padding: 50px 50px;
+  background-color: white;
+}
+.top-left
+{
+  background-color: white;
+}
+.top-left h1{
+  font-weight: 100;
+  background-color: white;
+  opacity: 0.5;
+
+}
+.top-left ol{
+  margin-top: 40px;
+  line-height: 2.5rem;
+  margin-left: 30px;
+  background-color: white;
+
+  
+}
+.top-left ol li{
+  background-color: white;
+  opacity: 0.7;
+}
+
+span{
+  font-weight: bold;
+  background-color: white;
+}
+.text-top
+{
+  margin-left: 40px;
+   font-size: 50px;
+   background-color: white;
+}
+section p{
+  color: #07a086;
+  background-color: white;
+  padding-left: 50px;
+  font-size: 14px;
+}
+.bottom
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 100px;
+  background-color: white;
+}
+.bottom .play
+{
+  position: relative;
+  width: 70px;
+  height: 70px;
+  left: 320px;
+}
